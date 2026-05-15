@@ -46,7 +46,7 @@ print(f"Vector store built with {index.ntotal} movies")
 
 # ── What: Connect to Groq (Llama 3)
 # ── Why: This is our LLM that will answer questions using retrieved context
-client = Groq(api_key="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")
+client = Groq(api_key="your_gsk_key_here")
 
 def ask_movies(question):
     """
